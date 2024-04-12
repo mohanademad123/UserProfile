@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="./image/user-icon.avif" />
+  <!-- normalize -->
+
+  <link rel="stylesheet" href="./animation/normalize.css" />
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet" />
+  <!-- animation  -->
+  <link rel="stylesheet" type="text/css" href="D:\HOME_template\WOW-master\css\libs\animate.css" />
+  <!-- icon -->
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile template</title>
+</head>
+
+<body>
+    <div id="particles-js"></div>
+  <!-------------- start header ------------->
+  <header class="header_perant wow fadeInDown" data-wow-duration="2s">
+    <div class="header_container">
+      <div class="header_box">
+        <div class="header_content">
+          <p>M</p>
+          <h3>Mohanad</h3>
+        </div>
+        <div class="togglebtn" id="menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav class="links">
+          <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>project</li>
+            <li>Protofilo</li>
+            <li>conect</li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!----------------- end heder -------------------->
+  <!------------- start feature -------------->
+  <section class="feature_perant wow fadeInDown" data-wow-duration="2s">
+
+    <div class="feature_container">
+      <div class="feature_box">
+        <div class="image">
+          <img src="./image/developer.jpg" alt="" />
+        </div>
+        <div class="feature_content">
+          <p>Hi Im, <span class="auto-type">Font end developer</span></p>
+          <h1>Mohanad Emad</h1>
+          <p class="about">
+            A Front-End Developer is a skilled professional who specializes in creating and implementing the visual and
+            interactive elements of a website or web application. They are responsible for translating design concepts
+            into code, ensuring that the user interface (UI) is not only visually appealing but also functional and
+            user-friendly. Front-End Developers work with a variety of technologies such as HTML, CSS, and JavaScript to
+            build the client-facing side of web projects.
+          </p>
+          <div class="btn">
+            <button>Dowenload CV</button>
+            <button class="conect">Contact</button>
+          </div>
+          <div class="icons_sections">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!----------------- end feature ----------------->
+
+  <!-- typing -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed(".auto-type", {
+      strings: [
+        "Crafting Code with Creativity: Frontend Developer on a Mission!",
+        "Designing Experiences through Code: Join Me in the World of Frontend!",
+        "Translating Design into Digital: Your Frontend Developer Guide!",
+      ],
+
+      typeSpeed: 120,
+      backSpeed: 80,
+      loop: true,
+    });
+  </script>  
+  <!-- animation -->
+  <script src="D:\HOME_template\WOW-master\dist\wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <script src="main.js"></script>
+
+  <script src="particles.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
